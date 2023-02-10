@@ -54,7 +54,7 @@
 
                             Console.WriteLine("Removendo veículo e calculando valor a pagar: ");
 
-                            Console.WriteLine("Qual o tempo estacionado? Digite o valor em Horas: ");
+                            Console.WriteLine("Qual o tempo estacionado? Digite o valor em Horas (horas fracionadas use o formato \"0,00\"): ");
                             double tempoEstacionado = double.Parse(Console.ReadLine());
 
                             //formula baseada naquilo que foi inserido em Configurações (4)
